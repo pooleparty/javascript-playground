@@ -1,4 +1,9 @@
 .vscode
 node_modules
 bin
+build
 public/bundles
+mochawesome-report
+**node_modules**
+.DS_Store
+metajs

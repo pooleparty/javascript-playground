@@ -1,0 +1,845 @@
+-----GENERATE_NODE-----
+ {
+  "type": "ThisExpression"
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "MemberExpression",
+  "computed": false,
+  "object": {
+    "type": "ThisExpression"
+  },
+  "property": {
+    "type": "Identifier",
+    "name": "head"
+  }
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "AssignmentExpression",
+  "operator": "=",
+  "left": {
+    "type": "Identifier",
+    "name": "current"
+  },
+  "right": {
+    "type": "MemberExpression",
+    "computed": false,
+    "object": {
+      "type": "ThisExpression"
+    },
+    "property": {
+      "type": "Identifier",
+      "name": "head"
+    }
+  }
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "BlockStatement",
+  "body": [
+    {
+      "type": "AssignmentExpression",
+      "operator": "=",
+      "left": {
+        "type": "Identifier",
+        "name": "current"
+      },
+      "right": {
+        "type": "MemberExpression",
+        "computed": false,
+        "object": {
+          "type": "ThisExpression"
+        },
+        "property": {
+          "type": "Identifier",
+          "name": "head"
+        }
+      }
+    }
+  ]
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "VariableDeclaration",
+  "declarations": [
+    {
+      "type": "VariableDeclarator",
+      "id": {
+        "type": "Identifier",
+        "name": "current"
+      },
+      "init": {
+        "type": "MemberExpression",
+        "computed": false,
+        "object": {
+          "type": "ThisExpression"
+        },
+        "property": {
+          "type": "Identifier",
+          "name": "head"
+        }
+      }
+    }
+  ],
+  "kind": "var"
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "Identifier",
+  "name": "Node"
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "Identifier",
+  "name": "item"
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "NewExpression",
+  "callee": {
+    "type": "Identifier",
+    "name": "Node"
+  },
+  "arguments": [
+    {
+      "type": "Identifier",
+      "name": "item"
+    }
+  ]
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "AssignmentExpression",
+  "operator": "=",
+  "left": {
+    "type": "Identifier",
+    "name": "newNode"
+  },
+  "right": {
+    "type": "NewExpression",
+    "callee": {
+      "type": "Identifier",
+      "name": "Node"
+    },
+    "arguments": [
+      {
+        "type": "Identifier",
+        "name": "item"
+      }
+    ]
+  }
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "BlockStatement",
+  "body": [
+    {
+      "type": "AssignmentExpression",
+      "operator": "=",
+      "left": {
+        "type": "Identifier",
+        "name": "newNode"
+      },
+      "right": {
+        "type": "NewExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "Node"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "item"
+          }
+        ]
+      }
+    }
+  ]
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "VariableDeclaration",
+  "declarations": [
+    {
+      "type": "VariableDeclarator",
+      "id": {
+        "type": "Identifier",
+        "name": "newNode"
+      },
+      "init": {
+        "type": "NewExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "Node"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "item"
+          }
+        ]
+      }
+    }
+  ],
+  "kind": "var"
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "Identifier",
+  "name": "current"
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "MemberExpression",
+  "computed": false,
+  "object": {
+    "type": "Identifier",
+    "name": "current"
+  },
+  "property": {
+    "type": "Identifier",
+    "name": "next"
+  }
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "AssignmentExpression",
+  "operator": "=",
+  "left": {
+    "type": "Identifier",
+    "name": "current"
+  },
+  "right": {
+    "type": "MemberExpression",
+    "computed": false,
+    "object": {
+      "type": "Identifier",
+      "name": "current"
+    },
+    "property": {
+      "type": "Identifier",
+      "name": "next"
+    }
+  }
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "ExpressionStatement",
+  "expression": {
+    "type": "AssignmentExpression",
+    "operator": "=",
+    "left": {
+      "type": "Identifier",
+      "name": "current"
+    },
+    "right": {
+      "type": "MemberExpression",
+      "computed": false,
+      "object": {
+        "type": "Identifier",
+        "name": "current"
+      },
+      "property": {
+        "type": "Identifier",
+        "name": "next"
+      }
+    }
+  }
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "BlockStatement",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "current"
+        },
+        "right": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "current"
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "next"
+          }
+        }
+      }
+    }
+  ]
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "WhileStatement",
+  "test": {
+    "type": "BinaryExpression",
+    "operator": "!==",
+    "left": {
+      "type": "MemberExpression",
+      "computed": false,
+      "object": {
+        "type": "Identifier",
+        "name": "current"
+      },
+      "property": {
+        "type": "Identifier",
+        "name": "next"
+      }
+    },
+    "right": {
+      "type": "Literal",
+      "value": null,
+      "raw": "null"
+    }
+  },
+  "body": {
+    "type": "BlockStatement",
+    "body": [
+      {
+        "type": "ExpressionStatement",
+        "expression": {
+          "type": "AssignmentExpression",
+          "operator": "=",
+          "left": {
+            "type": "Identifier",
+            "name": "current"
+          },
+          "right": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "current"
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "next"
+            }
+          }
+        }
+      }
+    ]
+  }
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "Identifier",
+  "name": "current"
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "Identifier",
+  "name": "newNode"
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "AssignmentExpression",
+  "operator": "=",
+  "left": {
+    "type": "MemberExpression",
+    "computed": false,
+    "object": {
+      "type": "Identifier",
+      "name": "current"
+    },
+    "property": {
+      "type": "Identifier",
+      "name": "next"
+    }
+  },
+  "right": {
+    "type": "Identifier",
+    "name": "newNode"
+  }
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "ExpressionStatement",
+  "expression": {
+    "type": "AssignmentExpression",
+    "operator": "=",
+    "left": {
+      "type": "MemberExpression",
+      "computed": false,
+      "object": {
+        "type": "Identifier",
+        "name": "current"
+      },
+      "property": {
+        "type": "Identifier",
+        "name": "next"
+      }
+    },
+    "right": {
+      "type": "Identifier",
+      "name": "newNode"
+    }
+  }
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "BlockStatement",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "current"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "ThisExpression"
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "head"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "newNode"
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "Node"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "item"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "WhileStatement",
+      "test": {
+        "type": "BinaryExpression",
+        "operator": "!==",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "current"
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "next"
+          }
+        },
+        "right": {
+          "type": "Literal",
+          "value": null,
+          "raw": "null"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "AssignmentExpression",
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "name": "current"
+              },
+              "right": {
+                "type": "MemberExpression",
+                "computed": false,
+                "object": {
+                  "type": "Identifier",
+                  "name": "current"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "next"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "current"
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "next"
+          }
+        },
+        "right": {
+          "type": "Identifier",
+          "name": "newNode"
+        }
+      }
+    }
+  ]
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "FunctionDeclaration",
+  "id": {
+    "type": "Identifier",
+    "name": "append"
+  },
+  "params": [
+    {
+      "type": "Identifier",
+      "name": "item"
+    }
+  ],
+  "body": {
+    "type": "BlockStatement",
+    "body": [
+      {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "current"
+            },
+            "init": {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "ThisExpression"
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "head"
+              }
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "newNode"
+            },
+            "init": {
+              "type": "NewExpression",
+              "callee": {
+                "type": "Identifier",
+                "name": "Node"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "item"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "WhileStatement",
+        "test": {
+          "type": "BinaryExpression",
+          "operator": "!==",
+          "left": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "current"
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "next"
+            }
+          },
+          "right": {
+            "type": "Literal",
+            "value": null,
+            "raw": "null"
+          }
+        },
+        "body": {
+          "type": "BlockStatement",
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "expression": {
+                "type": "AssignmentExpression",
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "name": "current"
+                },
+                "right": {
+                  "type": "MemberExpression",
+                  "computed": false,
+                  "object": {
+                    "type": "Identifier",
+                    "name": "current"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "next"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "expression": {
+          "type": "AssignmentExpression",
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "current"
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "next"
+            }
+          },
+          "right": {
+            "type": "Identifier",
+            "name": "newNode"
+          }
+        }
+      }
+    ]
+  },
+  "generator": false,
+  "expression": false,
+  "async": false
+} 
+
+-----GENERATE_NODE-----
+ {
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "append"
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "name": "item"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "current"
+                },
+                "init": {
+                  "type": "MemberExpression",
+                  "computed": false,
+                  "object": {
+                    "type": "ThisExpression"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "head"
+                  }
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "VariableDeclaration",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "newNode"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "callee": {
+                    "type": "Identifier",
+                    "name": "Node"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "item"
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "WhileStatement",
+            "test": {
+              "type": "BinaryExpression",
+              "operator": "!==",
+              "left": {
+                "type": "MemberExpression",
+                "computed": false,
+                "object": {
+                  "type": "Identifier",
+                  "name": "current"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "next"
+                }
+              },
+              "right": {
+                "type": "Literal",
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "name": "current"
+                    },
+                    "right": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "name": "current"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "next"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "AssignmentExpression",
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "computed": false,
+                "object": {
+                  "type": "Identifier",
+                  "name": "current"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "next"
+                }
+              },
+              "right": {
+                "type": "Identifier",
+                "name": "newNode"
+              }
+            }
+          }
+        ]
+      },
+      "generator": false,
+      "expression": false,
+      "async": false
+    }
+  ],
+  "sourceType": "script"
+} 
+
+{"type":"Program","body":[{"type":"FunctionDeclaration","id":{"type":"Identifier","name":"append"},"params":[{"type":"Identifier","name":"item"}],"body":{"type":"BlockStatement","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"current"},"init":{"type":"MemberExpression","computed":false,"object":{"type":"ThisExpression"},"property":{"type":"Identifier","name":"head"}}}],"kind":"var"},{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"newNode"},"init":{"type":"NewExpression","callee":{"type":"Identifier","name":"Node"},"arguments":[{"type":"Identifier","name":"item"}]}}],"kind":"var"},{"type":"WhileStatement","test":{"type":"BinaryExpression","operator":"!==","left":{"type":"MemberExpression","computed":false,"object":{"type":"Identifier","name":"current"},"property":{"type":"Identifier","name":"next"}},"right":{"type":"Literal","value":null,"raw":"null"}},"body":{"type":"BlockStatement","body":[{"type":"ExpressionStatement","expression":{"type":"AssignmentExpression","operator":"=","left":{"type":"Identifier","name":"current"},"right":{"type":"MemberExpression","computed":false,"object":{"type":"Identifier","name":"current"},"property":{"type":"Identifier","name":"next"}}}}]}},{"type":"ExpressionStatement","expression":{"type":"AssignmentExpression","operator":"=","left":{"type":"MemberExpression","computed":false,"object":{"type":"Identifier","name":"current"},"property":{"type":"Identifier","name":"next"}},"right":{"type":"Identifier","name":"newNode"}}}]},"generator":false,"expression":false,"async":false}],"sourceType":"script"} 
+
+{"type":"FunctionDeclaration","id":{"type":"Identifier","name":"append"},"params":[{"type":"Identifier","name":"item"}],"body":{"type":"BlockStatement","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"current"},"init":{"type":"MemberExpression","computed":false,"object":{"type":"ThisExpression"},"property":{"type":"Identifier","name":"head"}}}],"kind":"var"},{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"newNode"},"init":{"type":"NewExpression","callee":{"type":"Identifier","name":"Node"},"arguments":[{"type":"Identifier","name":"item"}]}}],"kind":"var"},{"type":"WhileStatement","test":{"type":"BinaryExpression","operator":"!==","left":{"type":"MemberExpression","computed":false,"object":{"type":"Identifier","name":"current"},"property":{"type":"Identifier","name":"next"}},"right":{"type":"Literal","value":null,"raw":"null"}},"body":{"type":"BlockStatement","body":[{"type":"ExpressionStatement","expression":{"type":"AssignmentExpression","operator":"=","left":{"type":"Identifier","name":"current"},"right":{"type":"MemberExpression","computed":false,"object":{"type":"Identifier","name":"current"},"property":{"type":"Identifier","name":"next"}}}}]}},{"type":"ExpressionStatement","expression":{"type":"AssignmentExpression","operator":"=","left":{"type":"MemberExpression","computed":false,"object":{"type":"Identifier","name":"current"},"property":{"type":"Identifier","name":"next"}},"right":{"type":"Identifier","name":"newNode"}}}]},"generator":false,"expression":false,"async":false} 
+

@@ -3,7 +3,7 @@ import express from 'express';
 const router = express.Router();
 
 router.get('*', (req, res) => {
-  res.render('index', { title: 'Node Web App Starter Kit' });
+  res.render('index', { title: 'Javascript Playground' });
 });
 
 export default router;

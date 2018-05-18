@@ -1,7 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const merge = require('webpack-merge');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const productionEnvPlugin = new webpack.DefinePlugin({
   'process.env': {
@@ -10,12 +9,11 @@ const productionEnvPlugin = new webpack.DefinePlugin({
 });
 
 const PATHS = {
-  build: path.resolve(__dirname, 'public/bundles'),
+  build: path.resolve(__dirname, 'build'),
   src: path.resolve(__dirname, 'src'),
 };
 
-const entry = ['babel-polyfill', './src/client/index.js'];
-const extractTextPluginConfig = new ExtractTextPlugin('bundle.css');
+const entry = ['./index.js'];
 
 const baseConfig = {
   devtool: 'source-map',
@@ -23,25 +21,17 @@ const baseConfig = {
   entry,
   output: {
     path: PATHS.build,
-    filename: 'bundle.js',
+    filename: 'index.js',
   },
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.js$/,
         include: [PATHS.src],
         loader: 'babel-loader',
       },
-      {
-        test: /\.scss$/,
-        use: extractTextPluginConfig.extract({
-          fallback: 'style-loader',
-          use: ['css-loader', 'postcss-loader', 'sass-loader'],
-        }),
-      },
     ],
   },
-  plugins: [extractTextPluginConfig],
 };
 
 const envConfig = new Proxy(
