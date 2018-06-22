@@ -1,4 +1,5 @@
 module.exports = {
+  testPathIgnorePatterns: ['/node_modules/', '/projects/'],
   moduleNameMapper: {
     '\\.(css|scss)$': '<rootDir>/__mocks__/styleMock.js',
   },

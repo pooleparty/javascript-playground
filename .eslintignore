@@ -5,4 +5,4 @@ bin/
 coverage/
 public/
 src/client/
-**metajs**
+src/projects/
